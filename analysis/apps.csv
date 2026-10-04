@@ -1,0 +1,11 @@
+package,category,note
+com.facebook.orca,social,DSS shares 5
+com.azarlive.android,video chat,DSS shares 10 (replaces Viber)
+com.kakao.talk,chat,DSS shares 8
+com.avast.android.vpn,VPN,DSS shares 8 (replaces TextNow)
+com.discord,chat,DSS shares 1
+com.viber.voip,calls/chat,DSS shares 8 (replaces Edge)
+com.whatsapp,chat,DSS shares 0 (gap case)
+org.telegram.messenger,chat,DSS shares 0 (gap case)
+com.snapchat.android,social,DSS shares 0 (gap case)
+com.google.android.apps.messaging,sms,DSS shares 0 (gap case)

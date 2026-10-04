@@ -1,0 +1,12 @@
+{
+ "^google": "Google",
+ "^(facebook|meta)": "Meta",
+ "^(microsoft|visual studio app center)": "Microsoft",
+ "^(amazon|aws)": "Amazon",
+ "^(appsflyer)": "AppsFlyer",
+ "^(adjust)": "Adjust",
+ "^(unity)": "Unity",
+ "^(twitter|mopub)": "X/Twitter (MoPub)",
+ "^(yandex)": "Yandex",
+ "^(crashlytics|firebase)": "Google"
+}

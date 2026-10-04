@@ -1,0 +1,50 @@
+app,sdk,website,method,evidence
+com.avast.android.vpn,Google CrashLytics,http://crashlytics.com,static,com.google.firebase.crashlytics
+com.avast.android.vpn,Google Firebase Analytics,https://firebase.google.com/,static,com.google.android.gms.measurement.
+com.avast.android.vpn,Adobe Experience Cloud,https://www.adobe.com/experience-cloud.html,static,com.adobe.marketing.mobile
+com.avast.android.vpn,Singular,https://singular.net/,static,com.singular.sdk
+com.azarlive.android,AppsFlyer,http://AppsFlyer.com,static,com.appsflyer.
+com.azarlive.android,Google CrashLytics,http://crashlytics.com,static,com.google.firebase.crashlytics
+com.azarlive.android,Google Firebase Analytics,https://firebase.google.com/,static,com.google.android.gms.measurement.
+com.azarlive.android,Facebook Login,https://developers.facebook.com/docs/android,static,com.facebook.login
+com.azarlive.android,Facebook Share,https://developers.facebook.com/docs/android,static,com.facebook.share
+com.azarlive.android,Google AdMob,https://admob.google.com,static,com.google.ads.
+com.discord,AppsFlyer,http://AppsFlyer.com,static,com.appsflyer.
+com.discord,Google Analytics,http://www.google.com/analytics/,static,com.google.android.gms.analytics.
+com.discord,Sentry,https://sentry.io/,static,io.sentry.
+com.facebook.orca,Google Analytics,http://www.google.com/analytics/,static,com.google.android.gms.analytics.
+com.facebook.orca,Facebook Notifications,https://developers.facebook.com/docs/android,static,com.facebook.notifications
+com.facebook.orca,Facebook Share,https://developers.facebook.com/docs/android,static,com.facebook.share
+com.facebook.orca,Mapbox,https://www.mapbox.com/,static,com.mapbox.mapboxsdk.maps.TelemetryDefinition
+com.facebook.orca,Facebook Flipper,https://fbflipper.com,static,com.facebook.flipper
+com.kakao.talk,Google CrashLytics,http://crashlytics.com,static,com.google.firebase.crashlytics
+com.kakao.talk,Google Firebase Analytics,https://firebase.google.com/,static,com.google.android.gms.measurement.
+com.kakao.talk,AdFit (Daum),https://www.daum.net,static,com.kakao.adfit.
+com.kakao.talk,Sentry,https://sentry.io/,static,io.sentry.
+com.snapchat.android,Google Firebase Analytics,https://firebase.google.com/,static,com.google.firebase.analytics.FirebaseAnalytics
+com.snapchat.android,Facebook Login,https://developers.facebook.com/docs/android,static,com.facebook.login
+com.snapchat.android,Mapbox,https://www.mapbox.com/,static,com.mapbox.android.telemetry.
+com.viber.voip,Google CrashLytics,http://crashlytics.com,static,com.google.firebase.crashlytics
+com.viber.voip,Add Apt Tr,https://www.addapptr.com,static,com.intentsoftware.addapptr.
+com.viber.voip,Google Firebase Analytics,https://firebase.google.com/,static,com.google.android.gms.measurement.
+com.viber.voip,Adjust,https://www.adjust.com/,static,com.adjust.sdk.
+com.viber.voip,ChartBoost,https://answers.chartboost.com/en-us/,static,com.chartboost.sdk.
+com.viber.voip,Facebook Ads,https://developers.facebook.com/docs/android,static,com.facebook.ads
+com.viber.voip,AppLovin (MAX and SparkLabs),https://www.applovin.com/,static,com.applovin
+com.viber.voip,AdColony,http://adcolony.com/,static,com.adcolony.
+com.viber.voip,Amazon Advertisement,https://developer.amazon.com/public/apis/earn/mobile-ads/docs/quick-start,static,com.amazon.device.ads
+com.viber.voip,Fyber,https://www.fyber.com/,static,com.fyber.
+com.viber.voip,Inmobi,http://inmobi.com,static,com.inmobi
+com.viber.voip,MixPanel,https://mixpanel.com/,static,com.mixpanel.
+com.viber.voip,Unity3d Ads,https://unity3d.com/,static,com.unity3d.ads
+com.viber.voip,Yandex Ad,https://www.yandex.com/,static,com.yandex.mobile.ads
+com.viber.voip,ironSource,https://www.ironsrc.com,static,com.ironsource.
+com.viber.voip,myTarget,https://target.my.com/,static,com.my.target.
+com.viber.voip,Mintegral,https://www.mintegral.com/en/,static,com.mbridge.msdk.
+com.viber.voip,PubMatic,https://pubmatic.com/,static,com.pubmatic.sdk
+com.viber.voip,Admost,https://admost.com/,static,admost.sdk.
+com.viber.voip,Google AdMob,https://admob.google.com,static,com.google.ads.
+com.viber.voip,Prebid Mobile,https://prebid.org,static,org.prebid.mobile
+com.viber.voip,Pangle,https://www.pangleglobal.com,static,com.bytedance
+com.viber.voip,Appodeal Stack,https://appodealstack.com/about/,static,com.explorestack.
+com.viber.voip,BidMachine,https://bidmachine.io/,static,io.bidmachine.

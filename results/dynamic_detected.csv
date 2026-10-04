@@ -1,0 +1,30 @@
+app,sdk,website,method,evidence
+com.avast.android.vpn,Google Firebase Analytics,https://firebase.google.com/,dynamic,firebaselogging-pa.googleapis.com
+com.azarlive.android,Google Ads,https://developers.google.com/admob/android,dynamic,adservice.google.com
+com.azarlive.android,Google AdMob,https://admob.google.com,dynamic,adservice.google.com
+com.azarlive.android,Google Firebase Analytics,https://firebase.google.com/,dynamic,firebaselogging-pa.googleapis.com
+com.azarlive.android,Facebook Audience,https://developers.facebook.com/docs/android/,dynamic,graph.facebook.com
+com.azarlive.android,Facebook Ads,https://developers.facebook.com/docs/android,dynamic,graph.facebook.com
+com.azarlive.android,Facebook Analytics,https://developers.facebook.com/docs/android,dynamic,graph.facebook.com
+com.azarlive.android,Facebook Login,https://developers.facebook.com/docs/android,dynamic,graph.facebook.com
+com.azarlive.android,Facebook Notifications,https://developers.facebook.com/docs/android,dynamic,graph.facebook.com
+com.azarlive.android,Facebook Places,https://developers.facebook.com/docs/android,dynamic,graph.facebook.com
+com.azarlive.android,Facebook Share,https://developers.facebook.com/docs/android,dynamic,graph.facebook.com
+com.facebook.orca,Facebook Audience,https://developers.facebook.com/docs/android/,dynamic,b-graph.facebook.com
+com.facebook.orca,Facebook Ads,https://developers.facebook.com/docs/android,dynamic,b-graph.facebook.com
+com.facebook.orca,Facebook Analytics,https://developers.facebook.com/docs/android,dynamic,b-graph.facebook.com
+com.facebook.orca,Facebook Login,https://developers.facebook.com/docs/android,dynamic,b-graph.facebook.com
+com.facebook.orca,Facebook Notifications,https://developers.facebook.com/docs/android,dynamic,b-graph.facebook.com
+com.facebook.orca,Facebook Places,https://developers.facebook.com/docs/android,dynamic,b-graph.facebook.com
+com.facebook.orca,Facebook Share,https://developers.facebook.com/docs/android,dynamic,b-graph.facebook.com
+com.facebook.orca,Facebook Audience,https://developers.facebook.com/docs/android/,dynamic,z-m-gateway.facebook.com
+com.facebook.orca,Facebook Ads,https://developers.facebook.com/docs/android,dynamic,z-m-gateway.facebook.com
+com.facebook.orca,Facebook Analytics,https://developers.facebook.com/docs/android,dynamic,z-m-gateway.facebook.com
+com.facebook.orca,Facebook Login,https://developers.facebook.com/docs/android,dynamic,z-m-gateway.facebook.com
+com.facebook.orca,Facebook Notifications,https://developers.facebook.com/docs/android,dynamic,z-m-gateway.facebook.com
+com.facebook.orca,Facebook Places,https://developers.facebook.com/docs/android,dynamic,z-m-gateway.facebook.com
+com.facebook.orca,Facebook Share,https://developers.facebook.com/docs/android,dynamic,z-m-gateway.facebook.com
+com.google.android.apps.messaging,Google Ads,https://developers.google.com/admob/android,dynamic,dl.google.com
+com.viber.voip,MixPanel,https://mixpanel.com/,dynamic,api.mixpanel.com
+com.viber.voip,Adjust,https://www.adjust.com/,dynamic,app.adjust.com
+com.viber.voip,Google Firebase Analytics,https://firebase.google.com/,dynamic,firebaselogging-pa.googleapis.com

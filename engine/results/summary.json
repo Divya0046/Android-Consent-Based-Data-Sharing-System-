@@ -1,0 +1,187 @@
+{
+  "functional_tests": {
+    "passed": 6,
+    "total": 6
+  },
+  "model_comparison": [
+    {
+      "model": "Proposed (fine-grained DSS-based)",
+      "total_requests": 500,
+      "true_positive_allow": 100,
+      "false_negative_deny": 0,
+      "true_negative_deny": 400,
+      "false_positive_allow": 0,
+      "authorization_accuracy_pct": 100.0,
+      "false_allow_rate_pct": 0.0,
+      "false_deny_rate_pct": 0.0,
+      "mean_latency_us": 163.1691,
+      "per_violation_type_false_allow": {
+        "wrong_third_party": 0,
+        "wrong_data": 0,
+        "wrong_purpose": 0,
+        "undeclared_sharing": 0
+      }
+    },
+    {
+      "model": "Baseline A: Disclosure-only (status quo)",
+      "total_requests": 500,
+      "true_positive_allow": 100,
+      "false_negative_deny": 0,
+      "true_negative_deny": 0,
+      "false_positive_allow": 400,
+      "authorization_accuracy_pct": 20.0,
+      "false_allow_rate_pct": 100.0,
+      "false_deny_rate_pct": 0.0,
+      "mean_latency_us": 0.0829,
+      "per_violation_type_false_allow": {
+        "wrong_third_party": 100,
+        "wrong_data": 100,
+        "wrong_purpose": 100,
+        "undeclared_sharing": 100
+      }
+    },
+    {
+      "model": "Baseline B: App-level coarse consent",
+      "total_requests": 500,
+      "true_positive_allow": 100,
+      "false_negative_deny": 0,
+      "true_negative_deny": 100,
+      "false_positive_allow": 300,
+      "authorization_accuracy_pct": 40.0,
+      "false_allow_rate_pct": 75.0,
+      "false_deny_rate_pct": 0.0,
+      "mean_latency_us": 1.6062,
+      "per_violation_type_false_allow": {
+        "wrong_third_party": 0,
+        "wrong_data": 100,
+        "wrong_purpose": 100,
+        "undeclared_sharing": 100
+      }
+    }
+  ],
+  "latency": {
+    "n_trials": 3000,
+    "mean_us": 162.279,
+    "median_us": 162.079,
+    "min_us": 28.316,
+    "max_us": 1592.27,
+    "stdev_us": 53.5133,
+    "p95_us": 216.953,
+    "p99_us": 272.065
+  },
+  "scalability": [
+    {
+      "policy_count": 10,
+      "mean_latency_us": 35.4439,
+      "median_latency_us": 34.1365,
+      "min_latency_us": 21.705,
+      "max_latency_us": 143.044,
+      "stdev_latency_us": 10.3156
+    },
+    {
+      "policy_count": 50,
+      "mean_latency_us": 68.1768,
+      "median_latency_us": 67.42,
+      "min_latency_us": 22.103,
+      "max_latency_us": 166.823,
+      "stdev_latency_us": 26.8849
+    },
+    {
+      "policy_count": 100,
+      "mean_latency_us": 107.2308,
+      "median_latency_us": 101.0405,
+      "min_latency_us": 23.563,
+      "max_latency_us": 283.51,
+      "stdev_latency_us": 51.4391
+    },
+    {
+      "policy_count": 500,
+      "mean_latency_us": 414.7865,
+      "median_latency_us": 398.129,
+      "min_latency_us": 26.847,
+      "max_latency_us": 994.136,
+      "stdev_latency_us": 220.1203
+    },
+    {
+      "policy_count": 1000,
+      "mean_latency_us": 875.8163,
+      "median_latency_us": 873.207,
+      "min_latency_us": 26.216,
+      "max_latency_us": 2532.062,
+      "stdev_latency_us": 495.34
+    },
+    {
+      "policy_count": 5000,
+      "mean_latency_us": 4115.7023,
+      "median_latency_us": 4122.099,
+      "min_latency_us": 47.432,
+      "max_latency_us": 13125.846,
+      "stdev_latency_us": 2510.9696
+    }
+  ],
+  "policy_generation_sample": [
+    {
+      "appId": "com.facebook.orca",
+      "shared_data_entries": 5,
+      "mean_generation_latency_us": 6.0959
+    },
+    {
+      "appId": "com.enflick.android.TextNow",
+      "shared_data_entries": 13,
+      "mean_generation_latency_us": 14.471
+    },
+    {
+      "appId": "com.discord",
+      "shared_data_entries": 1,
+      "mean_generation_latency_us": 1.7141
+    },
+    {
+      "appId": "com.microsoft.emmx",
+      "shared_data_entries": 3,
+      "mean_generation_latency_us": 3.8778
+    },
+    {
+      "appId": "com.google.android.apps.googlevoice",
+      "shared_data_entries": 1,
+      "mean_generation_latency_us": 1.7436
+    }
+  ],
+  "storage_overhead": [
+    {
+      "policy_count": 10,
+      "storage_bytes": 2154,
+      "storage_kb": 2.104,
+      "bytes_per_policy": 215.4
+    },
+    {
+      "policy_count": 50,
+      "storage_bytes": 10927,
+      "storage_kb": 10.671,
+      "bytes_per_policy": 218.54
+    },
+    {
+      "policy_count": 100,
+      "storage_bytes": 21877,
+      "storage_kb": 21.364,
+      "bytes_per_policy": 218.77
+    },
+    {
+      "policy_count": 500,
+      "storage_bytes": 109907,
+      "storage_kb": 107.331,
+      "bytes_per_policy": 219.81
+    },
+    {
+      "policy_count": 1000,
+      "storage_bytes": 220103,
+      "storage_kb": 214.944,
+      "bytes_per_policy": 220.1
+    },
+    {
+      "policy_count": 5000,
+      "storage_bytes": 1104848,
+      "storage_kb": 1078.953,
+      "bytes_per_policy": 220.97
+    }
+  ]
+}

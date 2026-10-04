@@ -1,0 +1,4 @@
+model,total_requests,true_positive_allow,false_negative_deny,true_negative_deny,false_positive_allow,authorization_accuracy_pct,false_allow_rate_pct,false_deny_rate_pct,mean_latency_us
+Proposed (fine-grained DSS-based),500,100,0,400,0,100.0,0.0,0.0,163.1691
+Baseline A: Disclosure-only (status quo),500,100,0,0,400,20.0,100.0,0.0,0.0829
+Baseline B: App-level coarse consent,500,100,0,100,300,40.0,75.0,0.0,1.6062

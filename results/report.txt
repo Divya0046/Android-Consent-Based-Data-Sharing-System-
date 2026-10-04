@@ -1,0 +1,37 @@
+app                                  DSSsh DSScl | total stat  dyn both |  unmap | gap
+com.facebook.orca                        5    37 |     3    2    0    1 |      1 | 
+com.azarlive.android                    10    19 |     3    1    0    2 |      7 | 
+com.kakao.talk                           8    24 |     3    3    0    0 |      2 | 
+com.avast.android.vpn                    8    10 |     3    2    0    1 |      0 | 
+com.discord                              1    23 |     3    3    0    0 |      5 | 
+com.viber.voip                           8    22 |    22   19    0    3 |      5 | 
+com.whatsapp                             0    14 |     0    0    0    0 |      4 | no third party found
+org.telegram.messenger                   0     9 |     0    0    0    0 |      1 | no third party found
+com.snapchat.android                     0    26 |     3    3    0    0 |      9 | YES: DSS declares no sharing, 3 third parties found
+com.google.android.apps.messaging        0     5 |     1    0    1    0 |      3 | YES: DSS declares no sharing, 1 third parties found
+
+TOTAL entity pairs: 41  (static-only 33, dynamic-only 1, both 7)
+Raw static SDK signatures matched: 49 -> merged to 41 entity pairs
+
+--- third parties per app ---
+com.facebook.orca: Google[static]; Mapbox[static]; Meta[both]
+com.azarlive.android: AppsFlyer[static]; Google[both]; Meta[both]
+com.kakao.talk: AdFit (Daum)[static]; Google[static]; Sentry[static]
+com.avast.android.vpn: Adobe Experience Cloud[static]; Google[both]; Singular[static]
+com.discord: AppsFlyer[static]; Google[static]; Sentry[static]
+com.viber.voip: AdColony[static]; Add Apt Tr[static]; Adjust[both]; Admost[static]; Amazon[static]; AppLovin (MAX and SparkLabs)[static]; Appodeal Stack[static]; BidMachine[static]; ChartBoost[static]; Fyber[static]; Google[both]; Inmobi[static]; Meta[static]; Mintegral[static]; MixPanel[both]; Pangle[static]; Prebid Mobile[static]; PubMatic[static]; Unity[static]; Yandex[static]; ironSource[static]; myTarget[static]
+com.whatsapp: -
+org.telegram.messenger: -
+com.snapchat.android: Google[static]; Mapbox[static]; Meta[static]
+com.google.android.apps.messaging: Google[dynamic]
+
+--- dynamic domains NOT matched to a known tracker (first-party or unknown) ---
+com.facebook.orca: portal.fb.com
+com.azarlive.android: api.azarlive.com, crashlyticsreports-pa.googleapis.com, event-gateway.platform-uw1.hpcnt.com, firebaseinappmessaging.googleapis.com, firebaseremoteconfig.googleapis.com, s3.amazonaws.com, trevianalytics.com
+com.kakao.talk: aem-kakao-collector.onkakao.net, katalk.kakao.com
+com.discord: discord.com, firebaselogging.googleapis.com, gateway.discord.gg, o64374.ingest.sentry.io, qbrere.launches.appsflyersdk.com
+com.viber.voip: abff.viber.com, abtest.api.viber.com, acr.amplreq.com, api.snapkit.com, secure.viber.com
+com.whatsapp: api.whatsapp.net, c.whatsapp.net, g.whatsapp.net, time.android.com
+org.telegram.messenger: firebaselogging.googleapis.com
+com.snapchat.android: app-analytics-v2.snapchat.com, aws-proxy-gcp.api.snapchat.com, aws.api.snapchat.com, aws.duplex.snapchat.com, cf-st.sc-cdn.net, gcp.api.snapchat.com, us-central1-gcp.api.snapchat.com, us-east1-aws.api.snapchat.com, usc1-gcp-v62.api.snapchat.com
+com.google.android.apps.messaging: geller-pa.googleapis.com, ondevicesafety-pa.googleapis.com, www.gstatic.com

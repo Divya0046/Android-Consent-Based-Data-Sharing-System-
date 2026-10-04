@@ -1,0 +1,231 @@
+{
+ "com.facebook.orca": [
+  {
+   "name": "Google",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Mapbox",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Meta",
+   "detectedBy": "both",
+   "firstParty": true
+  }
+ ],
+ "com.azarlive.android": [
+  {
+   "name": "AppsFlyer",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Google",
+   "detectedBy": "both",
+   "firstParty": false
+  },
+  {
+   "name": "Meta",
+   "detectedBy": "both",
+   "firstParty": false
+  }
+ ],
+ "com.kakao.talk": [
+  {
+   "name": "AdFit (Daum)",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Google",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Sentry",
+   "detectedBy": "static",
+   "firstParty": false
+  }
+ ],
+ "com.avast.android.vpn": [
+  {
+   "name": "Adobe Experience Cloud",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Google",
+   "detectedBy": "both",
+   "firstParty": false
+  },
+  {
+   "name": "Singular",
+   "detectedBy": "static",
+   "firstParty": false
+  }
+ ],
+ "com.discord": [
+  {
+   "name": "AppsFlyer",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Google",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Sentry",
+   "detectedBy": "static",
+   "firstParty": false
+  }
+ ],
+ "com.viber.voip": [
+  {
+   "name": "AdColony",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Add Apt Tr",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Admost",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Amazon",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "AppLovin (MAX and SparkLabs)",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Appodeal Stack",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "BidMachine",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "ChartBoost",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Fyber",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Inmobi",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Meta",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Mintegral",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Pangle",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Prebid Mobile",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "PubMatic",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Unity",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Yandex",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "ironSource",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "myTarget",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Adjust",
+   "detectedBy": "both",
+   "firstParty": false
+  },
+  {
+   "name": "Google",
+   "detectedBy": "both",
+   "firstParty": false
+  },
+  {
+   "name": "MixPanel",
+   "detectedBy": "both",
+   "firstParty": false
+  }
+ ],
+ "com.whatsapp": [],
+ "org.telegram.messenger": [
+  {
+   "name": "Google",
+   "detectedBy": "manual-runtime",
+   "firstParty": false
+  }
+ ],
+ "com.snapchat.android": [
+  {
+   "name": "Google",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Mapbox",
+   "detectedBy": "static",
+   "firstParty": false
+  },
+  {
+   "name": "Meta",
+   "detectedBy": "static",
+   "firstParty": false
+  }
+ ],
+ "com.google.android.apps.messaging": [
+  {
+   "name": "Google",
+   "detectedBy": "dynamic",
+   "firstParty": true
+  }
+ ]
+}

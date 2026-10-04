@@ -1,0 +1,56 @@
+[
+  {
+    "model": "Proposed (fine-grained DSS-based)",
+    "total_requests": 500,
+    "true_positive_allow": 100,
+    "false_negative_deny": 0,
+    "true_negative_deny": 400,
+    "false_positive_allow": 0,
+    "authorization_accuracy_pct": 100.0,
+    "false_allow_rate_pct": 0.0,
+    "false_deny_rate_pct": 0.0,
+    "mean_latency_us": 163.1691,
+    "per_violation_type_false_allow": {
+      "wrong_third_party": 0,
+      "wrong_data": 0,
+      "wrong_purpose": 0,
+      "undeclared_sharing": 0
+    }
+  },
+  {
+    "model": "Baseline A: Disclosure-only (status quo)",
+    "total_requests": 500,
+    "true_positive_allow": 100,
+    "false_negative_deny": 0,
+    "true_negative_deny": 0,
+    "false_positive_allow": 400,
+    "authorization_accuracy_pct": 20.0,
+    "false_allow_rate_pct": 100.0,
+    "false_deny_rate_pct": 0.0,
+    "mean_latency_us": 0.0829,
+    "per_violation_type_false_allow": {
+      "wrong_third_party": 100,
+      "wrong_data": 100,
+      "wrong_purpose": 100,
+      "undeclared_sharing": 100
+    }
+  },
+  {
+    "model": "Baseline B: App-level coarse consent",
+    "total_requests": 500,
+    "true_positive_allow": 100,
+    "false_negative_deny": 0,
+    "true_negative_deny": 100,
+    "false_positive_allow": 300,
+    "authorization_accuracy_pct": 40.0,
+    "false_allow_rate_pct": 75.0,
+    "false_deny_rate_pct": 0.0,
+    "mean_latency_us": 1.6062,
+    "per_violation_type_false_allow": {
+      "wrong_third_party": 0,
+      "wrong_data": 100,
+      "wrong_purpose": 100,
+      "undeclared_sharing": 100
+    }
+  }
+]

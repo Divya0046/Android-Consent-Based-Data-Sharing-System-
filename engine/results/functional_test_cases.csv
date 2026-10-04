@@ -1,0 +1,7 @@
+test,expected,actual,pass,reason,latency_ns
+T1_valid_consent,ALLOW,ALLOW,True,All authorization checks passed,45400
+T2_wrong_third_party,DENY,DENY,True,No matching user consent,13302
+T3_wrong_data,DENY,DENY,True,No matching user consent,14774
+T4_no_consent,DENY,DENY,True,No matching user consent,7849
+T5_wrong_purpose,DENY,DENY,True,No matching user consent,27908
+T6_no_declared_sharing,DENY,DENY,True,Data-sharing attributes are not declared in sharedData,15928

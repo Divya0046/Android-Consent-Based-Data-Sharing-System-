@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/detectedAppText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detected App: Waiting..."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/thirdPartyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter third party"
+            android:inputType="text"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnSaveConsent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Consent"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnClearConsent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear All Consent"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consent information will appear here."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:id="@+id/resultContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>

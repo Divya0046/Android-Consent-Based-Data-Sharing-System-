@@ -1,0 +1,42 @@
+app,third_party_entity,raw_names,detected_by
+com.avast.android.vpn,Adobe Experience Cloud,Adobe Experience Cloud,static
+com.avast.android.vpn,Google,Google CrashLytics; Google Firebase Analytics,both
+com.avast.android.vpn,Singular,Singular,static
+com.azarlive.android,AppsFlyer,AppsFlyer,static
+com.azarlive.android,Google,Google AdMob; Google Ads; Google CrashLytics; Google Firebase Analytics,both
+com.azarlive.android,Meta,Facebook Ads; Facebook Analytics; Facebook Audience; Facebook Login; Facebook Notifications; Facebook Places; Facebook Share,both
+com.discord,AppsFlyer,AppsFlyer,static
+com.discord,Google,Google Analytics,static
+com.discord,Sentry,Sentry,static
+com.facebook.orca,Google,Google Analytics,static
+com.facebook.orca,Mapbox,Mapbox,static
+com.facebook.orca,Meta,Facebook Ads; Facebook Analytics; Facebook Audience; Facebook Flipper; Facebook Login; Facebook Notifications; Facebook Places; Facebook Share,both
+com.google.android.apps.messaging,Google,Google Ads,dynamic
+com.kakao.talk,AdFit (Daum),AdFit (Daum),static
+com.kakao.talk,Google,Google CrashLytics; Google Firebase Analytics,static
+com.kakao.talk,Sentry,Sentry,static
+com.snapchat.android,Google,Google Firebase Analytics,static
+com.snapchat.android,Mapbox,Mapbox,static
+com.snapchat.android,Meta,Facebook Login,static
+com.viber.voip,AdColony,AdColony,static
+com.viber.voip,Add Apt Tr,Add Apt Tr,static
+com.viber.voip,Adjust,Adjust,both
+com.viber.voip,Admost,Admost,static
+com.viber.voip,Amazon,Amazon Advertisement,static
+com.viber.voip,AppLovin (MAX and SparkLabs),AppLovin (MAX and SparkLabs),static
+com.viber.voip,Appodeal Stack,Appodeal Stack,static
+com.viber.voip,BidMachine,BidMachine,static
+com.viber.voip,ChartBoost,ChartBoost,static
+com.viber.voip,Fyber,Fyber,static
+com.viber.voip,Google,Google AdMob; Google CrashLytics; Google Firebase Analytics,both
+com.viber.voip,Inmobi,Inmobi,static
+com.viber.voip,Meta,Facebook Ads,static
+com.viber.voip,Mintegral,Mintegral,static
+com.viber.voip,MixPanel,MixPanel,both
+com.viber.voip,Pangle,Pangle,static
+com.viber.voip,Prebid Mobile,Prebid Mobile,static
+com.viber.voip,PubMatic,PubMatic,static
+com.viber.voip,Unity,Unity3d Ads,static
+com.viber.voip,Yandex,Yandex Ad,static
+com.viber.voip,ironSource,ironSource,static
+com.viber.voip,myTarget,myTarget,static

@@ -1,15 +1,17 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# analysis inputs / large or private artifacts
+analysis/apks/
+analysis/pcap/
+analysis/pcap_raw/
+analysis/trackers.json
+analysis/__pycache__/
+engine/__pycache__/
+# secrets and build output
+**/google-services.json
 local.properties
+*.jks
+*.keystore
+.gradle/
+.kotlin/
+build/
+.idea/
+*.iml
